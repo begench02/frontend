@@ -1,0 +1,36 @@
+.module {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.user_input_main_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 30px;
+    width: 80%;
+    height: 600px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.close:hover {
+    transform: rotate(360deg);
+}
+
+.close img {
+    width: 25px;
+    height: 25px;
+}

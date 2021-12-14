@@ -1,0 +1,35 @@
+.main_block {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    height: 100vh;
+}
+
+.content_block {
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.inputs_block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+.inputs_block input {
+    width: 300px;
+}
+
+.button_block {
+    margin-top: 20px;
+}
+
+.button_block button {
+    background-color: #5CBBEB !important;
+}
